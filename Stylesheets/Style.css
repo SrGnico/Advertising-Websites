@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--color4);
+}
+
+html{
+    height: 100dvh;
+    scroll-snap-type: y proximity;
+    overflow-y: scroll;
+    scroll-behavior:smooth;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: 'IBM Plex Mono', monospace;
+    transition: background 500ms ease-in-out,
+                color 1000ms ease-in-out,
+                height ease 1000ms,
+                opacity ease 1000ms,
+                display ease 500ms,
+                scale ease 500ms;
+}
+
+
+
+
+
+.contactame{
+    appearance: none;
+    text-decoration: none;
+    background-color: var(--color1);
+    position: sticky;
+    height: 60px;
+    width: 160px;
+    left: 15px;
+    bottom: 15px;
+    z-index: 10;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-weight: bold;
+    border-radius: 15px;
+    border: 5px solid var(--color2);
+    cursor: pointer;
+    box-shadow: inset 0 0 5px black;
+
+}
+
+.contactame:hover{
+    background-color: var(--color2);
+    scale: 1.1;
+}
+
+
+.descanso{
+    height: 5dvh;
+    background-color: var(--color2);
+    scroll-snap-align: start;
+    display: block;
+}
+
+@media (max-width: 1024px){
+    html{
+        scroll-snap-type: none;
+    }
+}

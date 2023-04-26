@@ -1,0 +1,38 @@
+
+#beneficios{
+    height: auto;
+    background-color: var(--color2);
+    scroll-snap-align: start;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.beneficios{
+    display: flex;
+    align-items: center;
+    height: 60svh;
+}
+
+
+
+
+
+
+@media (max-width: 1024px) {
+
+    
+    #beneficios{
+        background-color: var(--color2);
+
+    }
+
+    .beneficios{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+
+}

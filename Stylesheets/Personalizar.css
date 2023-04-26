@@ -1,0 +1,124 @@
+@keyframes moveHand {
+    0%{transform: translateY(5px);}
+    50%{transform: translateY(-5px);}
+    100%{transform: translateY(5px);}
+    
+}
+
+.personalizar-texto{
+    padding: 3rem;
+    height: 50dvh;
+    width: 60dvw;
+    color: var(--color2);
+    background-color: var(--color4);
+    position: relative;
+    border-radius:0 15px 15px 0;
+}
+
+.personalizar{
+    height: 300px;
+    width: 550px;
+    background-color:  #202124;
+    position: relative;
+    margin: 55px;
+    border-radius: 15px;
+
+    border: 3px solid black;
+}
+
+
+.changeTheme{
+    position: relative;
+    left: 5%;
+    top: 75px;
+    background-color: var(--color2);
+    height: 150px;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    border: 3px solid;
+    padding: 25px;
+}
+
+.bxs-hand-up{
+    position: absolute;
+    bottom: 15px;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+
+    animation: moveHand 1s ease infinite;
+}
+
+.changeTheme>button{
+    border: 3px solid;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.changeTheme>button:hover{
+    scale: 1.1;
+}
+
+.changeTheme>:nth-child(1){
+    background-color: var(--color10-theme1);
+}
+.changeTheme>:nth-child(2){
+    background-color: var(--color10-theme2);
+}
+.changeTheme>:nth-child(3){
+    background-color: var(--color10-theme3);
+}
+.changeTheme>:nth-child(4){
+    background-color: var(--color10-theme4);
+}
+.changeTheme>:nth-child(5){
+    background-color: var(--color10-theme5);
+}
+.changeTheme>:nth-child(6){
+    background-color: var(--color10-theme6);
+}
+.changeTheme>:nth-child(7){
+    background-color: var(--color10-theme7);
+}
+
+@media (max-width: 1024px){
+
+    .personalizar-container{
+        width: 95%;
+        margin: 15px 0 15px 5%;
+        box-shadow: 0 0 10px black;
+        border-radius:  15px 0 0 15px;
+    }
+    .personalizar{
+        height: 300px;
+        width: 100%;
+        margin: 0;
+        border-radius: 0 0 0 15px;
+        
+    }
+
+    .changeTheme{
+        left: 0;
+        width: 100%;
+        padding: 0;
+    }
+
+    
+    .personalizar-texto{
+        width: 100%;
+        margin: 0;
+        height: 50svh;
+        border-radius: 15px 0 0 0 ;     
+        padding: 1.5rem;   
+        
+    }
+
+    .texto-a-ocultar{
+        opacity: 0;
+    }
+
+}

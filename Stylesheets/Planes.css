@@ -1,0 +1,106 @@
+.planes{
+    background-color: var(--color3);
+    height: 70svh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.plan{
+    margin: 50px 0;
+    height: 60svh;
+    width: 30%;
+    background-color: var(--color4);
+    border-radius: 15px;
+    position: relative;
+    padding: 40px 15px 10px 15px;
+    color: var(--color2);
+    scale: 0.8;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 0 15px var(--color4);
+    z-index: 10;
+}
+
+
+.plan-recomendado{
+    scale: 1;
+}
+
+.plan>div{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 100px solid var(--color1);
+    border-left: 100px solid transparent;
+    right: 10px;
+    top: 10px;
+}
+
+.plan>h1{
+    margin: 0;
+    padding: 10px;
+    font-size: 50px;
+    height: 100px;
+    background-color: var(--color4);
+    border-radius: 15px;
+    border: 5px solid var(--color2);
+
+    position: absolute;
+    top: -50px;
+    box-shadow: inset 0 0 5px black;
+    text-shadow: 0 0 5px black;
+}
+
+.plan:hover{
+    scale: 1.1;
+}
+
+.plan>h3{
+    color: var(--color1);
+    margin-bottom: 0svh;
+}
+
+
+.plan>a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 11svh;
+    background-color: var(--color1);
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 25px;
+    border-radius: 15px;
+    border: 5px solid var(--color2);
+    cursor: pointer;
+    box-shadow: inset 0 0 5px black;
+}
+
+.plan>a:hover{
+    background-color: var(--color2);
+}
+
+
+
+
+@media (max-width: 1024px){
+    .planes{
+        height: 200svh;
+        width: 100%;
+        flex-direction: column;
+    }
+    .plan{
+        margin-top: 35px;
+        width: 90%;
+        scale: 1;
+    }
+    .plan>h1{
+        font-size: 40px;
+        height: 90px;
+    }
+}

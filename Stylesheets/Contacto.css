@@ -1,0 +1,28 @@
+#contacto{
+    height: 7svh;
+    width: 100%;
+    background-color: var(--color4);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 1rem;
+    color: var(--color2);
+}
+
+
+#contacto>p>a{
+    appearance: none;
+    color:var(--color2);
+}
+
+@media (max-width: 1024px) {
+    #contacto{
+        height: 50svh;
+    }
+    #contacto>a{
+        width: 95%;
+    }
+    
+}

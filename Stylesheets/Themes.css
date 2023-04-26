@@ -1,0 +1,82 @@
+:root{
+    --color60-theme1: #004AAD;
+    --color30-theme1: #acc3d5;
+    --color20-theme1: #fbf3f2;
+    --color10-theme1: #fa991c;
+    
+
+    --color60-theme2: #23613d;
+    --color30-theme2: #99bd05;
+    --color20-theme2: #f2e8cc;
+    --color10-theme2: #de3891;
+
+    --color60-theme3: #1d4c4f;
+    --color30-theme3: #d3dcde;
+    --color20-theme3: #ece9e9;
+    --color10-theme3: #28b67e;
+
+    --color60-theme4: #383230;
+    --color30-theme4: #854621;
+    --color20-theme4: #cf8e55;
+    --color10-theme4: #bfaea4;
+    
+    --color60-theme5: #2d3250;
+    --color30-theme5: #676f9d;
+    --color20-theme5: #fff;
+    --color10-theme5: #f9b17a;
+
+    --color60-theme6: #142b6f;
+    --color30-theme6: #e1dee6;
+    --color20-theme6: #fff;
+    --color10-theme6: #ffd601;
+
+    --color60-theme7: #4c5175;
+    --color30-theme7: #e1e8ec;
+    --color20-theme7: #f8f8f8;
+    --color10-theme7: #bce7d9;
+}
+
+
+.theme1{
+    --color4:var(--color60-theme1);
+    --color3:var(--color30-theme1);
+    --color2:var(--color20-theme1);
+    --color1:var(--color10-theme1);
+}
+.theme2{
+    --color4:var(--color60-theme2);
+    --color3:var(--color30-theme2);
+    --color2:var(--color20-theme2);
+    --color1:var(--color10-theme2);
+}
+.theme3{
+    --color4:var(--color60-theme3);
+    --color3:var(--color30-theme3);
+    --color2:var(--color20-theme3);
+    --color1:var(--color10-theme3);
+}
+.theme4{
+    --color4:var(--color60-theme4);
+    --color3:var(--color30-theme4);
+    --color2:var(--color20-theme4);
+    --color1:var(--color10-theme4);
+}
+.theme5{
+    --color4:var(--color60-theme5);
+    --color3:var(--color30-theme5);
+    --color2:var(--color20-theme5);
+    --color1:var(--color10-theme5);
+}
+.theme6{
+    --color4:var(--color60-theme6);
+    --color3:var(--color30-theme6);
+    --color2:var(--color20-theme6);
+    --color1:var(--color10-theme6);
+}
+.theme7{
+    --color4:var(--color60-theme7);
+    --color3:var(--color30-theme7);
+    --color2:var(--color20-theme7);
+    --color1:var(--color10-theme7);
+}
+
